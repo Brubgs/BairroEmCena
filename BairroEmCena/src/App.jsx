@@ -1,5 +1,5 @@
-import Cabecalho from "./Cabecalho.jsx"
-import Home from "./Home.jsx"
+import Cabecalho from "./components/Cabecalho.jsx"
+import Home from "./components/Home.jsx"
 
 function App() {
   return (
