@@ -1,13 +1,19 @@
-
 import Carrosel from './Carrossel.jsx'
+import Cards from './Cards.jsx'
+
 function Home(){
     return(
         <>
             <div className="Home">
-                <h3>Eventos</h3>
-                <Carrosel/>
+                <div className="eventos">
+                    <h3>Eventos</h3>
+                    <Carrosel/>
+                </div>
+                <div className="cartaz">
+                    <h3>Em cartaz</h3>
+                    <Cards/>
+                </div>
             </div>
-            
         </>
     )
 }

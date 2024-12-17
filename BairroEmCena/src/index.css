@@ -65,3 +65,31 @@ body {
   font-size: 2rem;
   color: black;
 }
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card {
+    border: none;
+    background-color: var(--principal);
+}
+.card-img-top {
+    border: 4px solid var(--vermelho);
+    border-radius: 8px;
+}
+.botaoFilme {
+    background-color: var(--azul);
+    border: var(--azul);
+}
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.227);
+}
+
+.rodape img {
+    padding: 5px;
+}
