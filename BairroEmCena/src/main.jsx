@@ -6,6 +6,9 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Login from './pages/Login.jsx'
+import Cadastro from './pages/Cadastro.jsx'
+import Busca from './pages/Busca.jsx'
+import Cartola from './pages/Cartola.jsx'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +18,18 @@ const router = createBrowserRouter([
   {
     path: '/login',
     element: <Login/>,
+  },
+  {
+    path: '/cadastro',
+    element: <Cadastro/>
+  },
+  {
+    path: '/busca',
+    element: <Busca/>
+  },
+  {
+    path: '/cartola',
+    element: <Cartola/>
   }
 ]);
 

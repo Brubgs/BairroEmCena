@@ -1,8 +1,13 @@
 import Cartola from '../assets/images/filmes/Cartola.jpg'
 import Bacurau from '../assets/images/filmes/Bacurau.jpg'
 import Betania from '../assets/images/filmes/Betania.jpg'
+import { useNavigate } from 'react-router-dom';
 
 function Cards() {
+    const navigate = useNavigate()
+    function cartola(){
+        navigate('/cartola')
+    }
     return (
         <>
         <div className="cards my-5">
@@ -10,7 +15,7 @@ function Cards() {
                 <img src={Cartola} className="card-img-top" alt="Cartaz do filme Cartola" />
                     <div className="card-body">
                         <h5 className="card-title">Cartola</h5>
-                        <a href="#" className="botaoFilme btn btn-primary my-3">Ver filme</a>
+                        <a href="#" className="botaoFilme btn btn-primary my-3" onClick={cartola}>Ver filme</a>
                     </div>
             </div>
             <div className="card" style={{ width: '17.5rem' }}>
