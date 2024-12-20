@@ -13,7 +13,7 @@ function Cards() {
                         <a href="#" className="botaoFilme btn btn-primary my-3">Ver filme</a>
                     </div>
             </div>
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card" style={{ width: '17.5rem' }}>
                 <img src={Bacurau} className="card-img-top" alt="Cartaz do filme Bacurau"/>
                     <div className="card-body">
                         <h5 className="card-title">Bacurau</h5>

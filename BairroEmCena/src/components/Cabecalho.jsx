@@ -5,7 +5,7 @@ import Logo from '../assets/images/Logo.png'
 
 function Cabecalho() {
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" className='cabecalho'>
       <Container >
         <div>
             <img src={Logo} alt="" className='logo'/>
