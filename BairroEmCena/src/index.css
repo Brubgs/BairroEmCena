@@ -137,6 +137,35 @@ input {
     border-radius: 8px;
     padding: 6px 10px;
 }
+.botaoPesquisar{
+    border: none;
+    background-color: var(--azul);
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+.pesquisa {
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 35px 35px 35px;
+}
+.cointainerInfo {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 30PX;
+}
+.filmes {
+    display: flex;
+    flex-direction: column;
+}
+.botaoSabermais {
+    background-color: var(--azul);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    max-width: 150px;
+}
 .rodape {
     display: flex;
     align-items: center;
