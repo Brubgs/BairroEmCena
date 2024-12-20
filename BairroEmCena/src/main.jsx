@@ -9,6 +9,9 @@ import Login from './pages/Login.jsx'
 import Cadastro from './pages/Cadastro.jsx'
 import Busca from './pages/Busca.jsx'
 import Cartola from './pages/Cartola.jsx'
+import Compra from './pages/Compra.jsx'
+import Evento from './pages/Evento.jsx'
+import CompraEvento from './pages/CompraEvento.jsx'
 
 const router = createBrowserRouter([
   {
@@ -30,6 +33,18 @@ const router = createBrowserRouter([
   {
     path: '/cartola',
     element: <Cartola/>
+  },
+  {
+    path: '/comprar',
+    element: <Compra/>
+  },
+  {
+    path: 'evento',
+    element: <Evento/>
+  },
+  {
+    path: '/evento/comprar',
+    element: <CompraEvento/>
   }
 ]);
 

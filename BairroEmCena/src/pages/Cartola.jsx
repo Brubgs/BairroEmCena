@@ -4,6 +4,10 @@ import Filme from '../assets/images/filmes/Cartola.jpg'
 import { useNavigate } from 'react-router-dom';
 
 function Cartola(){
+    const navigate = useNavigate()
+    function comprarIngresso(){
+        navigate('/comprar')
+    }
     return(
         <>
             <Cabecalho/>
@@ -16,7 +20,7 @@ function Cartola(){
                     <h4>Horários:</h4>
                     <p>Seg. a sex. às 13:00h</p>
                     <h4>Sala:  2</h4>
-                    <button className="botaoComprar">Comprar ingresso</button>
+                    <button className="botaoComprar" onClick={comprarIngresso}>Comprar ingresso</button>
                 </div>
             </div>
             <Rodape/>

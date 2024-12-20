@@ -95,7 +95,7 @@ a {
     gap: 10px;
 }
 input {
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding: 3px 0px;
 }
@@ -119,7 +119,7 @@ input {
 .infoFilme {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     width: 45%;
     margin: 10px;
 }
@@ -129,6 +129,28 @@ input {
     margin-top: 50px;
     flex-wrap: wrap;
     margin-bottom: 50px;
+}
+.containerEvento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.imagemEvento {
+    max-width: 400px;
+    border: 7px solid var(--verde);
+    border-radius: 8px;
+    margin: 10px;
+}
+.infoEvento {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+    margin: 10px;
 }
 .botaoComprar {
     background-color: var(--azul);
@@ -151,6 +173,7 @@ input {
 }
 .cointainerInfo {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     margin: 30px 30px;
@@ -165,6 +188,15 @@ input {
     border: none;
     border-radius: 10px;
     max-width: 150px;
+}
+.seletor {
+    display: flex; 
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.seletor select {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .rodape {
     display: flex;
